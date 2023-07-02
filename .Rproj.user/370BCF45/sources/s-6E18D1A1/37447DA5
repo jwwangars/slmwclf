@@ -1,0 +1,26 @@
+{
+    "id": "37447DA5",
+    "path": "D:/DATA/个人项目/slmwclf/slmwclf/R/skeletons.R",
+    "project_path": "R/skeletons.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1688176603872.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "173,34",
+        "scrollLine": "168"
+    },
+    "folds": "12|70|35|0|\n52|61|86|0|\n105|77|124|0|\n140|45|152|0|\n175|55|186|0|\n",
+    "lastKnownWriteTime": 1688224105,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1688224105542,
+    "read_only": false,
+    "read_only_alternatives": []
+}
