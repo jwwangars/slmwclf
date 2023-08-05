@@ -14,11 +14,11 @@ SLM_construct(
 )
 }
 \arguments{
-\item{x}{independent variable}
+\item{x}{Independent variable. For multi-input, the first column is main variable to be segmented}
 
-\item{y}{dependent variable}
+\item{y}{Dependent variable}
 
-\item{fixed_psi}{segment location(cuts)}
+\item{fixed_psi}{Segment location(cuts)}
 
 \item{loss_function}{What loss function to use. L2 in default}
 
@@ -34,5 +34,8 @@ Segmented linear model main construct function (one variable)
 }
 \examples{
 temp = data_generator(1000,55,gen_type = 'chaos&cut')
-SLM_construct(temp[,1],temp[,2],fixed_psi = c(2,6,8,10))
+one_model = SLM_construct(temp[,1],temp[,2],fixed_psi = c(2,6,8,10))#single input
+one_model$x
+one_model$y
+AIC(SLM_construct(temp[,c(1,3,4)],temp[,2],fixed_psi = c(2,6,8,10)))#multi input
 }
